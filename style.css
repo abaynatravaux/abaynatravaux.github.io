@@ -54,3 +54,6 @@
 .finish-card p{margin:0;color:#666;font-size:14px;line-height:1.5}
 @media(max-width:1000px){.finish-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.finish-grid{grid-template-columns:1fr}.finish-card img{height:230px}}
+
+/* Organisation claire des 3 pôles */
+.service-block{margin-top:52px;padding-top:34px;border-top:1px solid #ddd}.service-title{display:flex;gap:20px;align-items:flex-start;margin-bottom:24px}.service-num{font-size:38px;font-weight:900;color:#d71920;line-height:1}.service-title h2{margin:3px 0 0}.service-title .tag{margin:0}.service-block .cards{margin-top:0}.service-block .finish-grid{margin-top:0}
