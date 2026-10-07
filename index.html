@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABAYNA TRAVAUX | Construction & Travaux</title>
+  <meta name="description" content="ABAYNA TRAVAUX - Construction, rénovation, travaux de bâtiment et aménagement au Maroc.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="#accueil"><span>ABAYNA</span> TRAVAUX</a>
+    <button class="menu" onclick="toggleMenu()">☰</button>
+    <nav id="nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#services">Services</a>
+      <a href="#projets">Réalisations</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="accueil" class="hero">
+  <div class="overlay"></div>
+  <div class="container hero-content">
+    <p class="eyebrow">BÂTIMENT • CONSTRUCTION • RÉNOVATION</p>
+    <h1>Construire aujourd'hui,<br><span>réussir demain.</span></h1>
+    <p class="lead">ABAYNA TRAVAUX accompagne vos projets de construction et de rénovation avec sérieux, qualité et engagement.</p>
+    <div class="actions">
+      <a class="btn primary" href="#contact">Demander un devis</a>
+      <a class="btn ghost" href="#services">Nos services</a>
+    </div>
+  </div>
+</section>
+
+<section id="apropos" class="section">
+  <div class="container two">
+    <div>
+      <p class="eyebrow dark">ABAYNA TRAVAUX</p>
+      <h2>Votre partenaire pour des travaux fiables et durables.</h2>
+      <p>Nous réalisons des travaux de construction, rénovation et aménagement avec une attention particulière portée à la qualité d'exécution, aux délais et à la satisfaction du client.</p>
+      <p>Notre objectif : transformer vos plans et vos idées en réalisations solides et professionnelles.</p>
+    </div>
+    <div class="stats">
+      <div><strong>01</strong><span>Qualité</span></div>
+      <div><strong>02</strong><span>Respect des délais</span></div>
+      <div><strong>03</strong><span>Professionnalisme</span></div>
+      <div><strong>04</strong><span>Suivi de chantier</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section light">
+  <div class="container">
+    <div class="heading">
+      <p class="eyebrow dark">NOS SERVICES</p>
+      <h2>Des solutions pour vos projets</h2>
+    </div>
+    <div class="cards">
+      <article class="card"><div class="icon">🏗️</div><h3>Construction</h3><p>Construction de bâtiments, villas, murs et ouvrages en béton armé.</p></article>
+      <article class="card"><div class="icon">🔨</div><h3>Rénovation</h3><p>Réhabilitation, réparation et modernisation des espaces existants.</p></article>
+      <article class="card"><div class="icon">🧱</div><h3>Gros œuvre</h3><p>Fondations, maçonnerie, ferraillage, coffrage et bétonnage.</p></article>
+      <article class="card"><div class="icon">🎨</div><h3>Finitions</h3><p>Enduits, peinture, revêtements et travaux de finition.</p></article>
+      <article class="card"><div class="icon">🚧</div><h3>Aménagement</h3><p>Clôtures, aménagements extérieurs et travaux divers.</p></article>
+      <article class="card"><div class="icon">📋</div><h3>Devis & suivi</h3><p>Étude de vos besoins, estimation et suivi des travaux.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="projets" class="section projects">
+  <div class="container">
+    <div class="heading">
+      <p class="eyebrow dark">RÉALISATIONS</p>
+      <h2>Nos projets</h2>
+      <p>Ajoutez ici vos photos de chantiers et réalisations.</p>
+    </div>
+    <div class="project-grid">
+      <div class="project"><div class="placeholder">CHANTIER 01</div><h3>Construction & gros œuvre</h3></div>
+      <div class="project"><div class="placeholder">CHANTIER 02</div><h3>Mur de clôture</h3></div>
+      <div class="project"><div class="placeholder">CHANTIER 03</div><h3>Rénovation</h3></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta-inner">
+    <div><p class="eyebrow">UN PROJET EN TÊTE ?</p><h2>Parlons de votre chantier.</h2></div>
+    <a class="btn primary" href="#contact">Obtenir un devis</a>
+  </div>
+</section>
+
+<section id="contact" class="section light">
+  <div class="container contact">
+    <div>
+      <p class="eyebrow dark">CONTACT</p>
+      <h2>Demandez votre devis</h2>
+      <p>Remplacez les coordonnées ci-dessous par celles de votre entreprise avant publication.</p>
+      <div class="contact-list">
+        <p>📞 <strong>Téléphone :</strong> +212 6 XX XX XX XX</p>
+        <p>💬 <strong>WhatsApp :</strong> +212 6 XX XX XX XX</p>
+        <p>📍 <strong>Localisation :</strong> Maroc</p>
+        <p>✉️ <strong>Email :</strong> contact@abayna-travaux.ma</p>
+      </div>
+    </div>
+    <form onsubmit="sendForm(event)">
+      <input id="name" type="text" placeholder="Votre nom" required>
+      <input id="phone" type="tel" placeholder="Téléphone" required>
+      <textarea id="message" rows="5" placeholder="Décrivez votre projet..." required></textarea>
+      <button class="btn primary" type="submit">Envoyer la demande</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><div class="container footer"><div class="logo"><span>ABAYNA</span> TRAVAUX</div><p>© 2026 ABAYNA TRAVAUX — Tous droits réservés.</p></div></footer>
+<a class="whatsapp" href="https://wa.me/212600000000" target="_blank" aria-label="WhatsApp">WA</a>
+<script src="script.js"></script>
+</body>
+</html>
