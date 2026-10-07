@@ -1,56 +1,77 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ABAYNA TRAVAUX | Construction & Travaux Divers au Maroc</title>
-<meta name="description" content="ABAYNA TRAVAUX — Construction, gros œuvre, rénovation et finitions au Maroc.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ABAYNA TRAVAUX | Construction & Rénovation</title>
+<meta name="description" content="ABAYNA TRAVAUX — construction, gros œuvre, terrassement, rénovation et finitions au Maroc.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><div class="nav wrap"><a href="#accueil" class="brand"><img src="logo.jpg" alt="ABAYNA TRAVAUX"></a>
-<button class="menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
-<nav><a href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#services">Services</a><a href="#projets">Réalisations</a><a href="#contact">Contact</a></nav></div></header>
+<header class="header" id="top">
+  <div class="nav wrap">
+    <a href="#accueil" class="brand"><img src="images/logo.png" alt="ABAYNA TRAVAUX"></a>
+    <button class="menu" aria-label="Menu">☰</button>
+    <nav id="nav"><a class="active" href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#services">Nos services</a><a href="#realisations">Réalisations</a><a href="#contact">Contact</a></nav>
+    <a class="top-wa" href="https://wa.me/212600000000" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+</header>
 
-<section id="accueil" class="hero" style="background-image:linear-gradient(90deg,rgba(0,0,0,.88),rgba(0,0,0,.42)),url('https://lirp.cdn-website.com/a29b67fd/dms3rep/multi/opt/_52A1351-939dafd3-85e13862-1920w.jpg')">
-<div class="wrap hero-grid"><div class="hero-text">
-<p class="tag">CONSTRUCTION AU MAROC • QUALITÉ • SÉRIEUX</p><h1>ABAYNA <span>TRAVAUX</span></h1>
-<p class="hero-description" style="color:#ffffff !important;text-shadow:0 2px 10px rgba(0,0,0,.9);font-weight:600;">Votre partenaire pour vos projets de construction, gros œuvre, rénovation et travaux divers au Maroc.</p>
-<div class="actions"><a class="btn red" href="#services">Nos services →</a><a class="btn outline" href="#contact">Demander un devis</a></div>
-</div></div></section>
+<main>
+<section class="hero" id="accueil">
+  <div class="hero-bg"></div>
+  <div class="wrap hero-inner">
+    <div class="eyebrow">CONSTRUIRE AUJOURD’HUI VOTRE AVENIR</div>
+    <h1>ABAYNA <span>TRAVAUX</span></h1>
+    <p>Votre partenaire de confiance pour tous vos projets de construction, rénovation et travaux divers.</p>
+    <a class="btn" href="#services">Nos services <b>→</b></a>
+  </div>
+</section>
 
-<section id="apropos" class="section"><div class="wrap two"><div><p class="tag">ABAYNA TRAVAUX</p><h2>Un partenaire fiable pour vos travaux.</h2><p>Nous accompagnons vos projets avec une approche adaptée au chantier marocain : organisation, qualité d’exécution, respect des délais et suivi des travaux.</p></div><div class="quality"><div><strong>01</strong><span>Qualité</span></div><div><strong>02</strong><span>Professionnalisme</span></div><div><strong>03</strong><span>Respect des délais</span></div><div><strong>04</strong><span>Suivi de chantier</span></div></div></div></section>
+<section class="services" id="services">
+<div class="wrap service-grid">
+  <article><div class="ico">🚜</div><h3>Terrassement</h3><p>Préparation de terrain, fouilles et nivellement.</p></article>
+  <article><div class="ico">▦</div><h3>Gros œuvre</h3><p>Fondations, murs, dalles et structures béton.</p></article>
+  <article><div class="ico">⌂</div><h3>Rénovation</h3><p>Rénovation complète ou partielle de vos biens.</p></article>
+  <article><div class="ico">▰</div><h3>Second œuvre & finitions</h3><p>Plâtrerie, peinture, carrelage, menuiserie, etc.</p></article>
+</div>
+</section>
 
-<section id="services" class="section gray"><div class="wrap"><div class="center"><p class="tag">NOS SERVICES</p><h2>Des solutions adaptées à vos projets</h2></div><div class="cards">
-<article><div class="icon">01</div><h3>Construction</h3><p>Villas, bâtiments, murs et ouvrages en béton armé.</p></article>
-<article><div class="icon">02</div><h3>Rénovation</h3><p>Réhabilitation, réparation et modernisation des espaces.</p></article>
-<article><div class="icon">03</div><h3>Gros œuvre</h3><p>Fondations, maçonnerie, ferraillage, coffrage et bétonnage.</p></article>
-<article><div class="icon">04</div><h3>Finitions</h3><p>Enduits, peinture, carrelage et finitions intérieures.</p></article>
-<article><div class="icon">05</div><h3>Aménagement</h3><p>Clôtures, aménagements extérieurs et travaux divers.</p></article>
-<article><div class="icon">06</div><h3>Devis & suivi</h3><p>Étude des besoins, estimation et suivi de chantier.</p></article>
-</div></div></section>
+<section class="projects" id="realisations">
+<div class="wrap">
+  <div class="section-head"><div><small>NOS RÉALISATIONS</small><h2>Des projets qui parlent <span>d’eux-mêmes</span></h2></div><p>Découvrez quelques exemples de réalisations présentées dans l’univers ABAYNA TRAVAUX.</p></div>
+  <div class="project-grid">
+    <article class="project"><img src="images/projet-1.jpg" alt="Maison moderne"><div><h3>Maison moderne</h3><p>Construction neuve</p></div></article>
+    <article class="project"><img src="images/projet-2.jpg" alt="Aménagement intérieur"><div><h3>Aménagement intérieur</h3><p>Finitions haut de gamme</p></div></article>
+    <article class="project"><img src="images/projet-3.jpg" alt="Gros œuvre"><div><h3>Gros œuvre</h3><p>Structure béton armé</p></div></article>
+    <article class="project"><img src="images/projet-4.jpg" alt="Rénovation"><div><h3>Rénovation</h3><p>Rénovation complète</p></div></article>
+  </div>
+</div>
+</section>
 
-<section id="projets" class="projects-photo"><div class="wrap">
-<div class="project-heading"><div><p class="tag">RÉALITÉ DU TERRAIN MAROCAIN</p><h2>Nos métiers en images</h2></div><p>Des visuels pris au Maroc pour donner au site une identité BTP locale et authentique.</p></div>
-<div class="photo-grid">
-<article class="photo-card"><img src="https://cdn.sanity.io/images/n2i0cmq4/production/f7234bd8a7902df2a4d8f3b67b136c45f67e2c69-1216x684.jpg?auto=format&fit=clip&fm=webp" alt="Chantier à Casablanca, Maroc"><div><h3>Chantier réel au Maroc</h3><p>Construction & gros œuvre</p></div></article>
-<article class="photo-card"><img src="https://www.bonyane.com/abaptith/2022/06/fin-scaled.jpg" alt="Ouvriers sur chantier au Maroc"><div><h3>Ferraillage</h3><p>Travaux réalisés à Fès</p></div></article>
-<article class="photo-card"><img src="https://isolfix.ma/images/PRRABATMOUSSE.jpeg" alt="Ouvriers sur chantier à Fès, Maroc"><div><h3>Équipe chantier</h3><p>Travail & sécurité</p></div></article>
-<article class="photo-card"><img src="https://i0.wp.com/www.habitatservicesplus.com/wp-content/uploads/2023/01/construction-villa-scaled.jpg?ssl=1&w=2400" alt="Construction résidentielle au Maroc"><div><h3>Projet urbain</h3><p>Construction à Casablanca</p></div></article>
-</div></div></section>
+<section class="about" id="apropos">
+<div class="wrap about-grid">
+  <div class="about-img"><img src="images/equipe.jpg" alt="Équipe ABAYNA TRAVAUX sur chantier"></div>
+  <div>
+    <small>À PROPOS DE NOUS</small><h2>ABAYNA TRAVAUX<br><span>Plus qu’une entreprise, un partenaire.</span></h2>
+    <p>Spécialisée dans la construction, la rénovation et les travaux de bâtiment, ABAYNA TRAVAUX met son expertise et son savoir-faire au service de vos projets.</p>
+    <p>De la préparation à la réalisation, notre objectif est de vous accompagner avec sérieux, qualité et respect des délais.</p>
+    <div class="values"><div><b>✓ Qualité garantie</b><span>Des matériaux fiables et un travail soigné.</span></div><div><b>◷ Respect des délais</b><span>Une organisation rigoureuse pour votre tranquillité.</span></div><div><b>● Équipe expérimentée</b><span>Des professionnels qualifiés et passionnés.</span></div><div><b>◆ Accompagnement personnalisé</b><span>Un suivi de A à Z de votre projet.</span></div></div>
+  </div>
+</div>
+</section>
 
-<section class="cta"><div class="wrap cta-inner"><div><p class="tag">UN PROJET EN TÊTE ?</p><h2>Parlons de votre chantier.</h2></div><a class="btn red" href="#contact">Obtenir un devis</a></div></section>
+<section class="contact" id="contact">
+<div class="wrap contact-grid">
+  <div><small>CONTACT</small><h2>Parlons de votre <span>projet</span></h2><p>Une question ? Un devis ? Notre équipe est à votre écoute pour vous conseiller et vous accompagner.</p>
+    <div class="contact-info"><p><b>Téléphone</b><br><a href="tel:+212600000000">+212 6 00 00 00 00</a></p><p><b>Email</b><br><a href="mailto:contact@abayna-travaux.ma">contact@abayna-travaux.ma</a></p><p><b>Localisation</b><br>Casablanca, Maroc</p></div>
+  </div>
+  <form id="contactForm"><div class="two"><input required name="name" placeholder="Nom complet *"><input required type="email" name="email" placeholder="Email *"></div><input required name="phone" placeholder="Téléphone *"><select name="project"><option value="">Type de projet *</option><option>Construction</option><option>Gros œuvre</option><option>Terrassement</option><option>Rénovation</option><option>Finitions</option></select><textarea required name="message" placeholder="Votre message *"></textarea><button class="btn" type="submit">Envoyer →</button><p class="form-note">Le formulaire ouvre votre messagerie avec le contenu préparé.</p></form>
+</div>
+</section>
+</main>
 
-<section class="section gallery-section"><div class="wrap"><div class="center"><p class="tag">CHANTIERS AU MAROC</p><h2>Une image plus proche de la réalité</h2></div>
-<div class="gallery">
-<img src="https://www.bonyane.com/abaptith/2022/06/fin-scaled.jpg" alt="Ferraillage sur chantier marocain">
-<img src="https://cdn.sanity.io/images/n2i0cmq4/production/f7234bd8a7902df2a4d8f3b67b136c45f67e2c69-1216x684.jpg?auto=format&fit=clip&fm=webp" alt="Chantier à Casablanca, Maroc">
-<img src="https://i0.wp.com/www.habitatservicesplus.com/wp-content/uploads/2023/01/construction-villa-scaled.jpg?ssl=1&w=2400" alt="Villa en construction au Maroc">
-</div></div></section>
-
-<section id="contact" class="section gray"><div class="wrap two"><div><p class="tag">CONTACT</p><h2>Contactez-nous</h2><p class="contact"><b>Téléphone</b><br>0657231193</p><p class="contact"><b>WhatsApp</b><br>0657231193</p><p class="contact"><b>Email</b><br>contact.abaynatravaux@gmail.com</p><p class="contact"><b>Instagram</b><br><a href="https://www.instagram.com/abayna.travaux/" target="_blank">@abayna.travaux</a></p></div>
-<form onsubmit="send(event)"><input id="n" placeholder="Votre nom" required><input id="p" placeholder="Téléphone" required><textarea id="m" rows="5" placeholder="Décrivez votre projet..." required></textarea><button class="btn red">Envoyer sur WhatsApp</button></form></div></section>
-
-<footer><div class="wrap"><img src="logo.jpg" alt="ABAYNA TRAVAUX"><p>Construction & Travaux Divers — Maroc</p><small>© 2026 ABAYNA TRAVAUX. Tous droits réservés.</small></div></footer>
-<a class="wa" href="https://wa.me/212657231193" target="_blank">WA</a>
-<script>function send(e){e.preventDefault();let t='Bonjour ABAYNA TRAVAUX,%0A%0ANom: '+encodeURIComponent(n.value)+'%0ATéléphone: '+encodeURIComponent(p.value)+'%0AProjet: '+encodeURIComponent(m.value);location.href='https://wa.me/212657231193?text='+t}</script>
+<footer><div class="wrap foot"><img src="images/logo.png" alt="ABAYNA TRAVAUX"><p>© 2026 ABAYNA TRAVAUX. Tous droits réservés.</p><p>Construire ensemble un avenir solide.</p></div></footer>
+<a class="float-wa" href="https://wa.me/212600000000" target="_blank" rel="noopener" aria-label="WhatsApp">◉</a>
+<script src="script.js"></script>
 </body></html>
