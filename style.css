@@ -21,3 +21,14 @@
 .gallery img{width:100%;height:300px;object-fit:cover;display:block}
 @media(max-width:900px){.photo-grid{grid-template-columns:repeat(2,1fr)}.project-heading{display:block}.gallery{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.photo-grid,.gallery{grid-template-columns:1fr}.gallery img{height:240px}.hero{min-height:620px}}
+
+
+/* Correction HERO : texte lisible sur la photo */
+.hero .hero-text > p:not(.tag){
+  color:#fff !important;
+  text-shadow:0 2px 8px rgba(0,0,0,.75);
+  font-weight:500;
+}
+.hero .hero-text{
+  text-shadow:0 1px 2px rgba(0,0,0,.25);
+}
