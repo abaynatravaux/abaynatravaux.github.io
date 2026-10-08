@@ -115,3 +115,14 @@
   .video-wrap{grid-template-columns:1fr;gap:40px}
   .video-frame{width:min(100%,330px)}
 }
+
+/* Galerie photos transmises par le client */
+.abayna-work-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:38px}
+.abayna-work{position:relative;overflow:hidden;margin:0;background:#151515;border-radius:12px;min-height:330px;box-shadow:0 10px 24px rgba(0,0,0,.12)}
+.abayna-work img{width:100%;height:370px;display:block;object-fit:cover;transition:transform .35s ease}
+.abayna-work:hover img{transform:scale(1.045)}
+.abayna-work figcaption{position:absolute;inset:auto 0 0;padding:55px 20px 19px;background:linear-gradient(transparent,rgba(0,0,0,.9));color:#fff;display:flex;flex-direction:column;gap:5px}
+.abayna-work figcaption span{font-size:12px;color:#ff5148;font-weight:900;letter-spacing:.08em}
+.abayna-work figcaption strong{font-size:21px}
+@media(max-width:850px){.abayna-work-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){.abayna-work-grid{grid-template-columns:1fr}.abayna-work img{height:400px}}
