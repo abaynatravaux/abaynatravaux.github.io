@@ -57,3 +57,16 @@
 
 /* Organisation claire des 3 pôles */
 .service-block{margin-top:52px;padding-top:34px;border-top:1px solid #ddd}.service-title{display:flex;gap:20px;align-items:flex-start;margin-bottom:24px}.service-num{font-size:38px;font-weight:900;color:#d71920;line-height:1}.service-title h2{margin:3px 0 0}.service-title .tag{margin:0}.service-block .cards{margin-top:0}.service-block .finish-grid{margin-top:0}
+
+/* Nouvelle section Réalisations — 3 construction + 3 finition */
+.projects-photo .project-heading h2 span{color:#e5241b}
+.photo-grid.six-cards{grid-template-columns:repeat(3,1fr);gap:16px}
+.photo-grid.six-cards .photo-card{height:300px;border-radius:10px}
+.photo-grid.six-cards .photo-card:after{inset:35% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.94))}
+.photo-grid.six-cards .photo-card>div{left:20px;bottom:18px;right:16px}
+.photo-grid.six-cards .photo-card small{display:inline-block;color:#fff;background:#d9251b;padding:4px 8px;border-radius:2px;font-size:10px;font-weight:800;letter-spacing:1.4px;margin-bottom:7px}
+.photo-grid.six-cards .photo-card h3{font-size:24px;margin:0 0 2px}
+.photo-grid.six-cards .photo-card p{font-size:14px;color:#eee;margin:0}
+.photo-grid.six-cards .finish-card-photo{box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}
+@media(max-width:900px){.photo-grid.six-cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.photo-grid.six-cards{grid-template-columns:1fr}.photo-grid.six-cards .photo-card{height:280px}}
