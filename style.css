@@ -87,3 +87,14 @@
 .gallery-item span{position:absolute;left:14px;bottom:14px;z-index:2}
 @media(max-width:900px){.six-cards,.gallery-six{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.six-cards,.gallery-six{grid-template-columns:1fr}.photo-card img{height:300px}.gallery-item{height:250px}}
+
+/* Réalisations marocaines - progression complète */
+.photo-grid.six-cards{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.photo-grid.six-cards .photo-card{height:310px;min-height:310px;border-radius:12px}
+.photo-grid.six-cards .photo-card img{height:310px}
+.photo-grid.six-cards .photo-card h3{font-size:22px}
+.photo-grid.six-cards .photo-card small{background:#d9251b}
+.gallery-six{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:1050px){.photo-grid.six-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:900px){.gallery-six{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.photo-grid.six-cards,.gallery-six{grid-template-columns:1fr}.photo-grid.six-cards .photo-card,.photo-grid.six-cards .photo-card img{height:300px}}
