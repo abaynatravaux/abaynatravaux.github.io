@@ -98,3 +98,20 @@
 @media(max-width:1050px){.photo-grid.six-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:900px){.gallery-six{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.photo-grid.six-cards,.gallery-six{grid-template-columns:1fr}.photo-grid.six-cards .photo-card,.photo-grid.six-cards .photo-card img{height:300px}}
+
+
+/* Vidéo chantier ABAYNA TRAVAUX */
+.video-showcase{background:#111214;color:#fff;padding:86px 0}
+.video-wrap{display:grid;grid-template-columns:1.05fr .75fr;gap:70px;align-items:center}
+.video-copy h2{font-size:clamp(38px,5vw,64px);line-height:1.02;margin:10px 0 20px}
+.video-copy>p:not(.tag){color:#c9c9c9;font-size:18px;line-height:1.7;max-width:620px}
+.video-points{display:flex;flex-wrap:wrap;gap:10px;margin:25px 0 30px}
+.video-points span{border:1px solid #3a3a3a;background:#191a1c;border-radius:999px;padding:9px 14px;font-size:13px;font-weight:700}
+.video-frame{position:relative;justify-self:center;width:min(100%,360px);background:#050505;border:1px solid #303030;border-radius:18px;padding:10px;box-shadow:0 25px 70px rgba(0,0,0,.45)}
+.video-frame video{display:block;width:100%;height:auto;max-height:620px;object-fit:cover;border-radius:12px;background:#000}
+.video-badge{position:absolute;left:24px;bottom:24px;background:#e3261b;color:#fff;font-size:11px;font-weight:900;letter-spacing:.12em;padding:8px 11px;border-radius:3px}
+@media(max-width:850px){
+  .video-showcase{padding:65px 0}
+  .video-wrap{grid-template-columns:1fr;gap:40px}
+  .video-frame{width:min(100%,330px)}
+}
