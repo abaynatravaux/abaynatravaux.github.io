@@ -1,15 +1,17 @@
-# ABAYNA TRAVAUX — Site vitrine
+# ABAYNA TRAVAUX – Site web
 
-Site statique responsive en HTML/CSS/JS.
+Site statique : aucun outil de compilation nécessaire.
 
-## Mise en ligne GitHub Pages
-1. Créez un repository GitHub.
-2. Uploadez `index.html`, `style.css`, `script.js` et le dossier `images`.
-3. Dans **Settings → Pages**, choisissez la branche principale et `/root`.
-4. Publiez.
+## Structure
+- `index.html` : contenu de la page
+- `style.css` : design (couleurs dans `:root`, accent rouge `--acc`)
+- `script.js` : formulaire (envoi vers WhatsApp)
+- `assets/` : logo, photos et vidéo d'accueil
 
-## À personnaliser avant publication
-- Remplacer le numéro `+212 6 00 00 00 00` dans `index.html` et les liens WhatsApp `212600000000`.
-- Remplacer `contact@abayna-travaux.ma` par votre vrai email.
-- Remplacer/ajuster l'adresse si nécessaire.
-- Les visuels présents sont des visuels générés pour la maquette de marque et doivent être remplacés par vos propres photos de réalisations si vous en avez.
+## Mettre en ligne sur GitHub Pages
+1. Remplacez les fichiers de votre dépôt `abaynatravaux.github.io` par ceux-ci (index.html à la racine).
+2. Faites un commit : le site est mis à jour en quelques minutes.
+
+## Modifier
+- Numéro WhatsApp : cherchez `212657231193` dans `index.html` et `script.js`.
+- Photos : remplacez les fichiers de `assets/` en gardant les mêmes noms.
