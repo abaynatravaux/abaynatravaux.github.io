@@ -1,9 +1,5 @@
-ABAYNA TRAVAUX — VERSION CORRIGÉE POUR GITHUB PAGES
-
-1. Ouvrez le fichier index.html pour prévisualiser le site.
-2. Sur GitHub, ouvrez le dépôt abaynatravaux.github.io, branche main.
-3. Supprimez les anciens fichiers du site (ou remplacez-les), puis envoyez le fichier index.html et le dossier images complet à la RACINE du dépôt.
-4. Attendez le déploiement de GitHub Pages et rechargez la page avec Ctrl+F5.
-
-Important : ne téléversez PAS le ZIP lui-même sur GitHub : téléversez les fichiers qui se trouvent À L'INTÉRIEUR du ZIP.
-Les photos et le logo sont inclus dans images. La page ne dépend pas de Canva ni de Tailwind CDN.
+ABAYNA TRAVAUX — NOUVEAU DESIGN
+1. Ouvrir index.html sur ordinateur pour voir le site.
+2. Dans GitHub repository abaynatravaux.github.io, remplacer index.html et importer le dossier images/ entier.
+3. Attendre le déploiement GitHub Pages puis actualiser avec Ctrl+F5.
+IMPORTANT: les photos sont des visuels de présentation; ne pas les présenter comme des réalisations vérifiées sans confirmation.
